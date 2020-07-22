@@ -47,7 +47,6 @@ const pokemonsArray = pokeUrls.then((urlsArray) => {
 
 // After having the data, load the app
 pokemonsArray.then((pokemons) => {
-  console.log({ pokemons });
   ReactDOM.render(
     <React.StrictMode>
       <App pokemons={pokemons} />

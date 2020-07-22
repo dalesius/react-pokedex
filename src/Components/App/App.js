@@ -7,8 +7,6 @@ function App(props) {
   const pokemons = props.pokemons;
   const [filterText, setFilterText] = useState("");
 
-  console.log(pokemons);
-
   // Cargo la pokedex
   return (
     <div className="container-fluid">
