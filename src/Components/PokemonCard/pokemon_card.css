@@ -1,0 +1,36 @@
+.col-sm-6,
+.col-md-4,
+.col-lg-3 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.pokemon-btn {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+}
+
+.card {
+  -webkit-box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.pokemon-card .img-container {
+  background-color: #eee;
+  padding: 3%;
+  min-width: 220px;
+  max-width: 405px;
+}
+.pokemon-card .card-title {
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: crimson;
+}
