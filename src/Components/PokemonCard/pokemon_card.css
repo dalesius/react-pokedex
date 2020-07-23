@@ -11,19 +11,45 @@
   padding: 0;
   text-decoration: none;
   border: none;
+  border-radius: 0.25em;
+  -webkit-box-shadow: 0px 0px 0.7rem rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0px 0px 0.7rem rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 0.7rem rgba(0, 0, 0, 0.9);
 }
 
-.card {
-  -webkit-box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.75);
+.pokemon-card {
+  position: relative;
+  background-color: #eee;
+  border-radius: 0.25em;
+}
+
+.pokemon-card .poke-number {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: crimson;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 0.25em;
+}
+
+.pokemon-card .poke-number p {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 600;
 }
 
 .pokemon-card .img-container {
-  background-color: #eee;
   padding: 3%;
   min-width: 220px;
   max-width: 405px;
+}
+.pokemon-card .card-body {
+  padding-right: 0;
+  padding-left: 0;
 }
 .pokemon-card .card-title {
   text-transform: uppercase;
@@ -33,4 +59,7 @@
   font-weight: 700;
   margin: 0;
   color: crimson;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }

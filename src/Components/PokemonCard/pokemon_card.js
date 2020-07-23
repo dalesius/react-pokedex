@@ -7,6 +7,9 @@ function PokemonCard(props) {
       <button className="pokemon-btn" /*onClick={popModal(props)}*/>
         <div className="card">
           <div className="pokemon-card" key={props.id}>
+            <div className="poke-number">
+              <p>#{props.id}</p>
+            </div>
             <div className="img-container">
               <img
                 className="card-img-top"
